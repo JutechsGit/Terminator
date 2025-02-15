@@ -1,0 +1,4 @@
+name: Terminator
+version: '1.0'
+main: de.jutechs.terminator.Main
+api-version: '1.21'
