@@ -113,6 +113,7 @@ public class Main extends JavaPlugin implements Listener, CommandExecutor {
             }
             arrow.setVelocity(spread.multiply(2));
             arrow.setShooter(player);
+            arrow.setDamage(6.0);
             arrow.setPickupStatus(Arrow.PickupStatus.DISALLOWED);
         }
     }
