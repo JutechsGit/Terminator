@@ -2,3 +2,15 @@ name: Terminator
 version: '1.0'
 main: de.jutechs.terminator.Main
 api-version: '1.21'
+description: Adds a bow that shoots 3 arrows at a time with no delay
+author: Jutechs
+commands:
+  awardterminator:
+    description: Awards a Terminator to a player.
+    usage: /awardterminator <playername>
+    permission: terminator.award
+permissions:
+  terminator.award:
+    description: Allows an admin to give a player a Terminator.
+    default: op
+
